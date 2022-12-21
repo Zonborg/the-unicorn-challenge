@@ -23,7 +23,7 @@ internal class UnicornHouseTest {
             UnicornType.MALICORN,
             20,
             10,
-            "Bad unicorn"
+            "Malicious"
         )
         europeanUnicorn = Unicorn(
             UUID.randomUUID(),
@@ -31,7 +31,7 @@ internal class UnicornHouseTest {
             UnicornType.UNICORN,
             10,
             30,
-            "Euro unicorn"
+            "European"
         )
         mildUnicorn = Unicorn(
             UUID.randomUUID(),

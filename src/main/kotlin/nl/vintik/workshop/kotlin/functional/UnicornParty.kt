@@ -21,7 +21,7 @@ private fun UnicornHouse.party(faceControl: (List<Unicorn>) -> List<Unicorn>) =
     faceControl.invoke(this.unicorns).map { it.name }
 
 
-private fun onlyBig(unicorns: List<Unicorn>): List<Unicorn> = TODO("Filter given unicorns by size starting from 10 inclusive")
+private fun onlyBig(unicorns: List<Unicorn>): List<Unicorn> = unicorns.filterByType()
 
 private fun onlyGood(unicorns: List<Unicorn>) = unicorns.filterByType(UnicornType.UNICORN, UnicornType.DEMICORN)
 
